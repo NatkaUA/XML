@@ -1,1 +1,23 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+  <ID> SUPQA-377 </ID>
+  <Summary> Invalid values can be recorded as user's name </Summary>
+  <Type> Bug </Type>
+  <Priority> Major </Priority>
+  <Environment> IPhone 7 Plus, IOS 14.6 App version: 1.4.105 </Environment>
+  <Reporter> Natalia Nikolayenko </Reporter>
+  <Assignee> Alla Ponomapenko </Assignee>
+  <Preconditions>
+                  <A> Run the app </A>
+                  <B> Sign in </B>
+                  <C> Tap on Profile </C>
+  </Preconditions>
+  <Steps_to_reproduce>
+                       <A> Tap Edit Profile button </A>
+                       <B> At First name field place invalid value ( special characters) </B>
+                       <C> Tap Save changes </C>
+                       <D> Review the changes </D> 
+</Steps_to_reproduce>
+  <Actual_result> Invalid values can be recorded as user's name. The same issue observed in the Last name input field </Actual_result>
+  <Expected_result> All fields accepts only valid values </Expected_result>
+</bug_report>
